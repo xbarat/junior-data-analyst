@@ -1,6 +1,25 @@
+
+# Data Handling
 pandas
 numpy
 matplotlib
 seaborn
 scikit-learn
 openpyxl
+
+# AI
+openai
+langchain
+langchain-openai
+
+# Agents
+quantalogic
+phidata
+litellm
+
+
+# Database
+sqlite3
+
+# Web
+streamlit
