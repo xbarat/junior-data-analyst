@@ -171,6 +171,23 @@ Yes or No [y/n] (y): y
 (venv) ~/dojo-2/bloombird $ 
 ```
 
+#### Top Selling Products
+```bash
+(venv) ~/dojo-2/bloombird $ python src/03_filter_data.py
+Script Output: Top-Selling Products:
+ Description
+WORLD WAR 2 GLIDERS ASSTD DESIGNS     53847
+JUMBO BAG RED RETROSPOT               47363
+ASSORTED COLOUR BIRD ORNAMENT         36381
+POPCORN HOLDER                        36334
+PACK OF 72 RETROSPOT CAKE CASES       36039
+WHITE HANGING HEART T-LIGHT HOLDER    35317
+RABBIT NIGHT LIGHT                    30680
+MINI PAINT SET VINTAGE                26437
+PACK OF 12 LONDON TISSUES             26315
+PACK OF 60 PINK PAISLEY CAKE CASES    24753
+```
+
 ### Questions:
 
 #### Technical

@@ -3,8 +3,8 @@
 ---
 
 ### **Note:** 
-- Done: Exploration
-- Next: Data Cleaning
+- Done: Exploration, Data Cleaning
+- Next: Query Generation, Insights & Charts
 - Time: 8 hours/48 hours
 
 ---
@@ -16,14 +16,20 @@
 - [X] Detect missing values & duplicates
 - [ ] Results captured in tests/01-basic-exploration.md
 
-*Data Cleaning:*
-- [ ] Implement cleaning: fill nulls, drop bad data
-- [ ] Validate: Ensure cleaned dataset structure
-- [ ] Results captured in tests/02-missing-values.md
+*Data Cleaning:* (SUCCESS)
+- [X] Implement cleaning: fill nulls, drop bad data
+- [X] Validate: Ensure cleaned dataset structure
+- [X] Results captured in tests/02-missing-values.md
 
-*Query Generation:*
-- [ ] AI converts NL → SQL (5 test queries)
-- [ ] Compare AI queries vs. manually written SQL
+- [X] Filtering & Aggregations (Find top selling products)
+- [X] Time-based Analysis (Identify peak transaction hours from InvoiceDate)
+- [X] Anamoly Detection (Find orders with Quantity < 0)
+- [X] Data Formatting & Cleanup (Ensure correct data types for all columns)
+
+*Text to SQL Generation:* (PARTIAL SUCCESS)
+- [X] AI converts NL → SQL (5 test queries)
+- [X] Compare AI queries vs. manually written SQL
+- [X] Results captured in tests/05_sql_queries.md
 - [ ] Log & fix incorrect AI-generated queries
 - [ ] Ensure AI queries return valid results
 
@@ -49,6 +55,8 @@ Backlog:
 - [ ] Improve UX for in-memory data modifications before file changes
 - [ ] Add observability for each tool execution (results, outputs, errors, logs)
 - [ ] Add data processing logging and debugging mode
+- [ ] How does MCP (Model Context Protocol) work?
+- [ ] Research Technical Tradeoffs for building a MCP-compliant agent
 
 
 Feature Requests:
